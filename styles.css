@@ -4,6 +4,7 @@
 
 body {
   height: 100%;
+  width: 100%;
 }
 
 .main-container {
@@ -79,9 +80,82 @@ h2 {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
+#formGroupExampleInput3 {
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 98.5%;
+  padding-bottom: 115px;
+}
+
 #sticky-footer {
   border-top: 8px solid #4aaaa5;
   width: 100%;
   position: fixed;
   bottom: 0;
+}
+
+.imgHolder {
+  position: relative;
+}
+.imgHolder span {
+  position: absolute;
+  background-color: #4aaaa5;
+  color: white;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  bottom: 20px;
+  font-weight: bold;
+  left: 76.5px;
+}
+
+#hangman {
+  width: 266.66px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#rpg {
+  width: 266.66px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#trivia {
+  width: 266.66px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#rutgers {
+  width: 266.66px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#rps {
+  width: 266.66px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#pictureRow1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#pictureRow2 {
+  margin-bottom: 20px;
+}
+
+#pictureRow3 {
+  margin-bottom: 20px;
 }
